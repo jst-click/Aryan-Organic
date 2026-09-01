@@ -30,13 +30,14 @@ export default function Hero() {
               {company.serviceName}
             </p>
             <h1 className="font-display text-3xl sm:text-4xl lg:text-[2.75rem] font-bold text-forest-900 leading-[1.1] text-balance">
-              Transform Your Terrace Into a Productive Garden
+              Turn Your Terrace Into a Living Organic Garden
             </h1>
             <p className="mt-2 text-xs font-medium uppercase tracking-[0.16em] text-forest-600">
               {company.tagline}
             </p>
             <p className="mt-2 text-base sm:text-lg text-forest-800/80 max-w-xl">
-              100% Organic • Automated • Sustainable • For Every Family
+              Professionally designed, fully automated terrace gardens — so your family harvests
+              chemical-free vegetables at home.
             </p>
             <p className="mt-1.5 text-sm sm:text-base text-forest-700 font-medium">
               {company.kannada.service}

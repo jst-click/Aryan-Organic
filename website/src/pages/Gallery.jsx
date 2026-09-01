@@ -7,8 +7,9 @@ export default function Gallery() {
     <>
       <PageHero
         eyebrow="Gallery"
-        title="Apartments, pots & terrace gardens"
-        subtitle="How plants live where people live — balcony pots, grow bags, indoor shelves and rooftop harvests."
+        title="Urban gardens, thoughtfully made"
+        subtitle="Our nursery, installed terrace gardens, vacant-plot layouts, balcony pots and rooftop harvests — a look at how organic growing fits Bangalore homes and unused land."
+        image="/images/terrace-organic-garden.jpg"
       />
       <section className="py-16 lg:py-20">
         <div className="container-site section-pad">
@@ -28,13 +29,13 @@ export default function Gallery() {
                   }}
                 />
                 <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-forest-950/85 to-transparent p-4 text-sm text-white opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition">
-                  {img.alt}
+                  {img.caption || img.alt}
                 </figcaption>
               </figure>
             ))}
           </div>
           <div className="mt-12 text-center">
-            <Button to="/book-visit">Want this on your terrace? Book a visit</Button>
+            <Button to="/book-visit">Plan a garden like this — book a visit</Button>
           </div>
         </div>
       </section>

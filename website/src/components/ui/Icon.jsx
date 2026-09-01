@@ -28,6 +28,21 @@ import {
   Camera,
   Play,
   Plus,
+  Eye,
+  Target,
+  Heart,
+  Users,
+  Award,
+  Handshake,
+  Sparkles,
+  Compass,
+  Shield,
+  Home,
+  Sun,
+  Globe,
+  HeartHandshake,
+  Bot,
+  Send,
 } from 'lucide-react'
 
 const icons = {
@@ -61,6 +76,21 @@ const icons = {
   Youtube: Play,
   Plus,
   Pipe: Droplets,
+  Eye,
+  Target,
+  Heart,
+  Users,
+  Award,
+  Handshake,
+  Sparkles,
+  Compass,
+  Shield,
+  Home,
+  Sun,
+  Globe,
+  HeartHandshake,
+  Bot,
+  Send,
 }
 
 export default function Icon({ name, className = 'w-5 h-5', ...props }) {

@@ -9,8 +9,8 @@ export default function Testimonials() {
       <div className="container-site section-pad">
         <SectionHeading
           eyebrow="Testimonials"
-          title="What Our Customers Say"
-          subtitle="Bangalore families growing fresh, chemical-free food at home."
+          title="Trusted by families across Bangalore"
+          subtitle="Households who chose to grow their own organic food — and now harvest it at home."
           className="mb-12"
         />
 

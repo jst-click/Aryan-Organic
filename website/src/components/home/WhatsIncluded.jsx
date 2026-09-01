@@ -9,8 +9,8 @@ export default function WhatsIncluded() {
       <div className="container-site section-pad">
         <SectionHeading
           eyebrow="What's Included"
-          title="What's Included in Your Terrace Garden?"
-          subtitle="Everything from fibre tubs to plants — complete setup and installation by the ARYAN team."
+          title="A complete garden, not a shopping list"
+          subtitle="Fibre tubs, drip irrigation, organic soil, plants and professional installation — delivered as one designed system by the ARYAN team."
           className="mb-12"
         />
 
@@ -35,6 +35,11 @@ export default function WhatsIncluded() {
                 <p className="text-xs sm:text-sm font-semibold text-forest-800 text-center leading-snug">
                   {item.title}
                 </p>
+                {item.desc && (
+                  <p className="text-[0.65rem] sm:text-xs text-forest-600/80 text-center leading-snug">
+                    {item.desc}
+                  </p>
+                )}
               </motion.div>
               {index < whatsIncluded.length - 1 && (
                 <Icon

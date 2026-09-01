@@ -8,14 +8,25 @@ export default function HowItWorksPage() {
   return (
     <>
       <PageHero
-        eyebrow="Process"
-        title="How ARYAN Terrace Garden Setup Works"
-        subtitle="Five clear steps — from free inspection to harvest. Soil, seeds, setup, training — we handle everything."
+        eyebrow="Our Process"
+        title="How an ARYAN terrace garden comes to life"
+        subtitle="Five clear, professionally managed steps — from a complimentary inspection to your first harvest. Soil, seeds, installation and training are all included."
+        image="/images/nursery-shade-net.jpg"
       />
       <HowItWorksSection />
       <Benefits />
       <section className="py-16">
         <div className="container-site section-pad">
+          <div className="max-w-3xl mx-auto mb-10 text-center">
+            <h2 className="font-display text-2xl sm:text-3xl font-semibold text-forest-900">
+              What you can expect at every step
+            </h2>
+            <p className="mt-3 text-forest-700/75 leading-relaxed">
+              We do not leave you with a pile of pots and a pamphlet. Each stage is documented,
+              explained and completed by our team — so you always know what happens next and who is
+              responsible.
+            </p>
+          </div>
           <div className="max-w-3xl mx-auto space-y-6">
             {howItWorks.map((s) => (
               <div

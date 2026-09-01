@@ -3,35 +3,329 @@ export const company = {
   serviceName: 'ARYAN Terrace Garden Setup',
   tagline: 'Honest • Pure • Responsible',
   slogan: 'Every Drop is Organic',
-  mission: 'Every family deserves organic. Every bite deserves healthy.',
+  mission:
+    'To promote sustainable farming and help people grow and consume fresh, healthy, and naturally grown food.',
+  vision:
+    'To make organic vegetables and fruits affordable and accessible to every family — so healthy, chemical-free living is not a luxury, but a daily choice at home.',
   logo: '/images/logo-brand.png',
   kannada: {
     service: 'ನಿಮ್ಮ ಮನೆಯಲ್ಲೇ ಆರ್ಗ್ಯಾನಿಕ್ ತರಕಾರಿ',
-    terrace:
-      'ನಿಮ್ಮ ಟೆರೇಸ್‌ನಲ್ಲಿ ನಾವೇ ಆರ್ಗ್ಯಾನಿಕ್ ಗಾರ್ಡನ್ ಮಾಡಿ ಕೊಡ್ತೀವಿ',
+    terrace: 'ನಿಮ್ಮ ಟೆರೇಸ್‌ನಲ್ಲಿ ನಾವೇ ಆರ್ಗ್ಯಾನಿಕ್ ಗಾರ್ಡನ್ ಮಾಡಿ ಕೊಡ್ತೀವಿ',
     responsibility: 'ಬೀಜದಿಂದ ಕೊಯ್ಲುವರೆಗೆ ನಮ್ಮ ಜವಾಬ್ದಾರಿ',
     everyDrop: 'ಪ್ರತಿ ಹನಿಯೂ ಆರ್ಗ್ಯಾನಿಕ್',
   },
   ceo: {
     name: 'Arun Aryan',
-    title: 'CEO, ARYAN ORGANICS',
+    title: 'Founder & CEO, ARYAN ORGANICS',
   },
   contact: {
     phone: '8861383237',
     phoneDisplay: '+91 88613 83237',
-    email: 'hello@aryanorganics.in',
+    email: 'aryanorganic.com@gmail.com',
     venue: 'Byranayakanahalli, Kolar District, Bangarpet Taluk, Hudukula Post',
     landmark: 'Asha International School',
     address:
       'Byranayakanahalli, Kolar (District), Bangarpet (Taluk), Hudukula (Post)',
-    areas: 'Serving Bangalore & Kolar region',
+    areas: 'Serving Bangalore, Kolar and the surrounding region',
   },
   social: {
     whatsapp: 'https://wa.me/918861383237',
-    facebook: '#',
-    instagram: '#',
-    youtube: '#',
+    facebook: 'https://www.facebook.com/profile.php?id=61594067848084',
+    instagram: 'https://www.instagram.com/aryan_organic_',
+    youtube: 'https://www.youtube.com/channel/UC3tPG_ZIUPQzjGuOMHusuEA',
   },
+}
+
+export const aboutContent = {
+  heroTitle: 'About Us',
+  heroSubtitle:
+    'A farming family with over 10 years of hands-on experience in organic vegetables and fruits — now helping our community grow fresh, chemical-free food at home.',
+  storyEyebrow: 'About Us',
+  storyTitle: 'Grown from the farm. Shared with the community.',
+  story: [
+    'We come from a farming background and have over 10 years of extensive experience in growing organic vegetables and fruits. Over the years, we have gained valuable hands-on knowledge and expertise in organic farming practices.',
+    'With a strong passion for agriculture and a vision to make healthy, chemical-free food more accessible, we have ventured into this business with the goal of sharing our knowledge, experience, and the benefits of organic farming with our community.',
+    'Our mission is to promote sustainable farming and help people grow and consume fresh, healthy, and naturally grown food.',
+    'From our base in Byranayakanahalli, Kolar, we now design and install automated organic terrace gardens across Bangalore and the surrounding region — so that same farm knowledge lives on your rooftop, from seed to harvest.',
+  ],
+}
+
+export const visionMission = {
+  vision: {
+    icon: 'Eye',
+    eyebrow: 'Our Vision',
+    title: 'Affordable, accessible organic vegetables and fruits for every family',
+    image: '/images/terrace-organic-garden.jpg',
+    imageAlt: 'A productive rooftop garden with vegetables, grow bags and drip irrigation',
+    statement:
+      'We believe organic vegetables and fruits should be affordable and accessible to all families — not only a few. By bringing the farm to the terrace, every household can grow fresh, chemical-free produce at a cost they can sustain, and share that health with the people they love.',
+    points: [
+      'Organic living priced and planned so every family can start',
+      'Chemical-free vegetables as a daily habit, not a luxury',
+      'Complete gardens that make healthy food easy to reach at home',
+    ],
+  },
+  mission: {
+    icon: 'Target',
+    eyebrow: 'Our Mission',
+    title: 'Promote sustainable farming and naturally grown food',
+    image: '/images/nursery-shade-net.jpg',
+    imageAlt: 'ARYAN ORGANICS nursery — seedlings raised under shade net for terrace gardens',
+    statement:
+      'Our mission is to promote sustainable farming and help people grow and consume fresh, healthy, and naturally grown food — by sharing our hands-on organic farming expertise and installing complete terrace gardens for the community.',
+    points: [
+      'End-to-end setup: soil, seeds, tubs, drip, plants and training',
+      'Water-efficient automation that works while you are at work',
+      'Personal support from inspection to harvest — and beyond',
+    ],
+  },
+}
+
+export const coreValues = [
+  {
+    icon: 'ShieldCheck',
+    title: 'Honesty',
+    text: 'Clear advice, transparent materials and no shortcuts. If a terrace is not suitable, we will tell you so.',
+  },
+  {
+    icon: 'Leaf',
+    title: 'Purity',
+    text: 'Every drop of water, every handful of soil and every nutrient we use is chemical-free and family-safe.',
+  },
+  {
+    icon: 'Handshake',
+    title: 'Responsibility',
+    text: 'From seed to harvest, the garden is our responsibility. We install, train and return when you need us.',
+  },
+  {
+    icon: 'Heart',
+    title: 'Family Health',
+    text: 'We build gardens so children eat fresh palak they helped grow — food you can trust without reading a label.',
+  },
+  {
+    icon: 'Recycle',
+    title: 'Sustainability',
+    text: 'Drip irrigation, durable FRP systems and organic methods that respect water, soil and the city we live in.',
+  },
+  {
+    icon: 'Users',
+    title: 'Personal Service',
+    text: 'You speak with the people who build your garden — including our founder. Support is direct, not outsourced.',
+  },
+]
+
+export const aboutStats = [
+  { value: '10+ years', label: 'Organic farming experience' },
+  { value: '100%', label: 'Chemical-free growing' },
+  { value: 'Farm-born', label: 'Hands-on agricultural roots' },
+  { value: 'Community', label: 'Knowledge shared, not sold alone' },
+]
+
+export const whyChooseUs = [
+  {
+    icon: 'Award',
+    title: 'Complete, not piecemeal',
+    text: 'Tubs, stands, drip lines, soil, seeds, bio-fertilisers and training arrive as one designed system — not a shopping list you assemble yourself.',
+  },
+  {
+    icon: 'Cpu',
+    title: 'Built for busy urban families',
+    text: 'Automated drip irrigation waters plants while you work. You learn simple care. The garden does the rest.',
+  },
+  {
+    icon: 'Home',
+    title: 'Designed for Bangalore homes',
+    text: 'Layouts for apartments, villas, balconies, rooftops and vacant plots — planned around sunlight, wind, water and the ground you have.',
+  },
+  {
+    icon: 'Headphones',
+    title: 'Support you can actually reach',
+    text: 'Inspection, installation and after-care are handled by our team. The founder’s number stays with you.',
+  },
+]
+
+export const aboutPromise = {
+  title: 'Our promise to every household',
+  quote:
+    'Instead of buying vegetables of uncertain origin, grow your own. We will install a complete organic terrace garden in your home. No chemicals. No confusion. We set it up, we teach you, and we stay accountable. You harvest and eat.',
+  kannada: 'ಬೀಜದಿಂದ ಕೊಯ್ಲುವರೆಗೆ ನಮ್ಮ ಜವಾಬ್ದಾರಿ',
+}
+
+export const urbanGreens = {
+  eyebrow: 'Urban Greens. Pure Living.',
+  title: 'Bringing Nature Closer to Your Life.',
+  body: 'From compact spaces to lush green escapes — ARYAN transforms urban living with custom organic solutions that fit your space, your lifestyle and your health.',
+  ribbon: 'Real Food. Real Impact. Right at Home.',
+  image: '/images/urban-balcony-garden.png',
+  imageAlt:
+    'ARYAN balcony garden — grow bags, lettuce, herbs and tomatoes against an urban skyline',
+  features: [
+    {
+      icon: 'Sprout',
+      title: 'Space-Smart Solutions',
+      text: 'Thoughtfully designed for balconies, terraces, and every corner.',
+    },
+    {
+      icon: 'Leaf',
+      title: '100% Organic',
+      text: 'No chemicals. No toxins. Just pure, safe and nutritious produce.',
+    },
+    {
+      icon: 'HeartHandshake',
+      title: 'Sustainable by Choice',
+      text: 'Eco-friendly practices that protect our planet and nurture the future.',
+    },
+    {
+      icon: 'Home',
+      title: 'Greener Living',
+      text: 'Beautiful, productive greens that elevate your home and well-being.',
+    },
+  ],
+}
+
+export const natureCloser = {
+  title: 'Bringing Nature Closer to You',
+  subtitle: '100% Organic Solutions for a Healthier You and a Greener Planet.',
+  cta: 'Explore Organic',
+  ctaTo: '/services',
+  image: '/images/banner-nature-closer.png',
+  imageAlt: 'Bringing Nature Closer to You — balcony garden overlooking a green valley',
+  pillars: [
+    {
+      icon: 'ShieldCheck',
+      title: '100% Organic',
+      text: 'Pure and natural products you can trust.',
+      detail:
+        'From nursery soil to terrace water, nothing chemical enters the system. Every drop is organic.',
+    },
+    {
+      icon: 'Droplets',
+      title: 'Sustainable',
+      text: 'Eco-friendly practices for a better tomorrow.',
+      detail:
+        'Water-smart drip irrigation and durable materials that respect the terrace and the city.',
+    },
+    {
+      icon: 'Users',
+      title: 'Support Farmers',
+      text: 'Empowering rural communities.',
+      detail:
+        'We raise plants and source organic inputs in a way that keeps rural growers in the story.',
+    },
+    {
+      icon: 'Heart',
+      title: 'Better For You',
+      text: 'Healthy choices for you and your family.',
+      detail:
+        'Harvest palak, tomato and herbs a few steps from the kitchen — food you can serve without doubt.',
+    },
+    {
+      icon: 'Globe',
+      title: 'Better For Planet',
+      text: 'Small steps today, greener world tomorrow.',
+      detail:
+        'Every terrace we convert is one less unused slab and one more living, breathing garden.',
+    },
+  ],
+}
+
+export const responsibilityBrand = {
+  title: 'From Nature With Responsibility',
+  subtitle: 'Nurturing Soil. Growing Health. Enriching Lives.',
+  cta: 'Live Organic, Live Better',
+  ctaTo: '/book-visit',
+  image: '/images/banner-responsibility.png',
+  imageAlt: 'From Nature With Responsibility — sunlit organic fields at golden hour',
+  ribbon: 'Honest • Pure • Responsible',
+  values: [
+    {
+      icon: 'Leaf',
+      title: 'Pure & Natural',
+      text: 'No Chemicals. No Compromise.',
+      detail:
+        'We do not dilute organic standards for speed or cost. Soil, seed, water and pest care stay clean.',
+    },
+    {
+      icon: 'Sprout',
+      title: 'Sustainable',
+      text: 'For a Healthier You and Planet.',
+      detail:
+        'Gardens designed to last — less waste, less water, and harvests that return season after season.',
+    },
+    {
+      icon: 'HeartHandshake',
+      title: 'Support Farmers',
+      text: 'Empowering Rural Communities.',
+      detail:
+        'Organic living should lift the people who grow, not only the families who harvest in the city.',
+    },
+  ],
+}
+
+export const rooftopOasis = {
+  eyebrow: 'Urban Rooftop Oasis',
+  title: 'Grow your own paradise above the city',
+  subtitle: 'Raised planters, ripe tomatoes and a quiet place to sit — a terrace that feeds you and lets you breathe.',
+  body: 'This is what an unused rooftop can become: elevated garden beds overflowing with tomatoes, leafy greens and herbs; a wooden deck to walk; a corner to sit as the sun goes down. ARYAN designs the complete organic system — tubs, soil, drip irrigation, plants and training — so your family harvests chemical-free food a few steps from the kitchen, without turning the terrace into a chore.',
+  kannada: 'ನಿಮ್ಮ ಟೆರೇಸ್‌ನಲ್ಲಿ ನಾವೇ ಆರ್ಗ್ಯಾನಿಕ್ ಗಾರ್ಡನ್ ಮಾಡಿ ಕೊಡ್ತೀವಿ',
+  cta: 'Book Free Inspection',
+  ctaTo: '/book-visit',
+  secondaryCta: 'See Our Service',
+  secondaryCtaTo: '/services',
+  image: '/images/lifestyle/rooftop-sunset-oasis.png',
+  imageAlt:
+    'Sunset rooftop garden with vegetables, grow bags, a vine pergola and a seating corner above the city',
+  points: [
+    {
+      icon: 'Sprout',
+      title: 'Harvest on your own deck',
+      text: 'Tomatoes, palak, herbs and seasonal greens grown in terrace-safe raised planters — picked the same afternoon you cook.',
+    },
+    {
+      icon: 'Home',
+      title: 'A living space, not only a farm',
+      text: 'We keep walking room, seating and greenery in the plan, so the rooftop stays a place to gather as well as grow.',
+    },
+    {
+      icon: 'Sun',
+      title: 'Designed for Bangalore light',
+      text: 'Layouts follow sunlight, wind, water and terrace load. Automated drip waters the garden while you are at work.',
+    },
+  ],
+}
+
+export const landGarden = {
+  eyebrow: 'Blank Land & Open Plots',
+  title: 'Turn unused land into a working organic garden',
+  subtitle:
+    'Vacant sites, backyard plots and open ground can become a structured farm — raised beds, grow bags, trellis crops and drip irrigation, planned for the land you already have.',
+  body: 'This is what a blank plot becomes with ARYAN: elevated planter boxes on metal stands, climbing frames for leafy vines, nursery rows in grow bags, a filtration and drip network, and a mesh boundary that protects the crop. We study the soil, sunlight and water first — then install a complete organic system so unused land starts feeding the household, not sitting idle.',
+  kannada: 'ಖಾಲಿ ಜಾಗದಲ್ಲಿ ನಾವೇ ಆರ್ಗ್ಯಾನಿಕ್ ಗಾರ್ಡನ್ ಮಾಡಿ ಕೊಡ್ತೀವಿ',
+  cta: 'Book a Land Visit',
+  ctaTo: '/book-visit',
+  secondaryCta: 'See Our Service',
+  secondaryCtaTo: '/services',
+  image: '/images/land-site-garden.png',
+  imageAlt:
+    'Blank plot converted into an organic garden — raised planter beds, trellis crops, grow bags and drip irrigation at sunset',
+  overlay: 'From unused plot to a living garden',
+  points: [
+    {
+      icon: 'Layers',
+      title: 'Raised beds on open ground',
+      text: 'Long planter boxes on sturdy frames keep soil off the red earth, with walking paths and metal trellises for climbing greens.',
+    },
+    {
+      icon: 'Sprout',
+      title: 'Nursery rows and grow bags',
+      text: 'Seedlings and fruiting plants sit in organised grow bags beside the beds — so a vacant site also becomes a working nursery.',
+    },
+    {
+      icon: 'Droplets',
+      title: 'Drip, filter and fence',
+      text: 'PVC lines, a filter-and-pump station and a mesh windbreak are installed as one system — measured water, less waste, a protected plot.',
+    },
+  ],
 }
 
 export const navLinks = [
@@ -42,6 +336,7 @@ export const navLinks = [
     path: '/services',
     children: [
       { label: 'Terrace Garden Setup', path: '/services' },
+      { label: 'Land & Plot Gardens', path: '/services' },
       { label: 'How It Works', path: '/how-it-works' },
     ],
   },
@@ -52,105 +347,106 @@ export const navLinks = [
 ]
 
 export const heroFeatures = [
-  { icon: 'ShieldCheck', label: 'No Chemicals' },
-  { icon: 'Droplets', label: 'Every Drop is Organic' },
-  { icon: 'Droplet', label: 'Save Water' },
+  { icon: 'ShieldCheck', label: '100% Chemical-Free' },
+  { icon: 'Sprout', label: 'Organic Vegetables & Fruits' },
+  { icon: 'Droplet', label: 'Water-Smart Irrigation' },
   { icon: 'Cpu', label: 'Fully Automated System' },
   { icon: 'Sprout', label: 'Grow Your Own Food' },
-  { icon: 'Leaf', label: 'Eco Friendly Solution' },
+  { icon: 'Leaf', label: 'Eco-Responsible Design' },
 ]
 
 export const featureBar = [
   { icon: 'Cpu', label: 'Fully Automated System' },
   { icon: 'Leaf', label: '100% Organic Farming' },
-  { icon: 'Droplets', label: 'Save Water' },
-  { icon: 'Wrench', label: 'Easy Setup & Installation' },
-  { icon: 'Headphones', label: 'Complete Support' },
-  { icon: 'Recycle', label: 'Eco Friendly Solution' },
+  { icon: 'Droplets', label: 'Water-Efficient Drip' },
+  { icon: 'Wrench', label: 'Professional Installation' },
+  { icon: 'Headphones', label: 'Dedicated After-Care' },
+  { icon: 'Recycle', label: 'Eco-Friendly Solution' },
 ]
 
 export const configDetails = [
-  { icon: 'Box', label: 'Fibre tubs with stands' },
-  { icon: 'SprayCan', label: 'One water sprayer' },
-  { icon: 'Droplets', label: 'Fully automated drip irrigation' },
-  { icon: 'Pipe', label: 'All plumbing and fittings' },
-  { icon: 'Mountain', label: 'Premium organic soil mix with cocopeat' },
-  { icon: 'FlaskConical', label: 'Bio fertilizers, nutrients & pest control' },
-  { icon: 'Sprout', label: 'Vegetable plants and seeds' },
-  { icon: 'Layers', label: 'Heavy duty FRP tubes' },
+  { icon: 'Box', label: 'Fibre tubs with stands', desc: 'Durable, terrace-safe growing containers' },
+  { icon: 'SprayCan', label: 'One water sprayer', desc: 'For gentle foliar care and seedlings' },
+  { icon: 'Droplets', label: 'Automated drip irrigation', desc: 'Timed watering with minimal waste' },
+  { icon: 'Pipe', label: 'Plumbing and fittings', desc: 'Complete water-line setup included' },
+  { icon: 'Mountain', label: 'Premium organic soil mix', desc: 'Cocopeat-enriched, chemical-free media' },
+  { icon: 'FlaskConical', label: 'Bio fertilisers & pest care', desc: 'Family-safe nutrients and controls' },
+  { icon: 'Sprout', label: 'Vegetable plants and seeds', desc: 'Season-ready greens and fruiting crops' },
+  { icon: 'Layers', label: 'Heavy-duty FRP systems', desc: 'Long-life tubs built for Indian weather' },
 ]
 
 export const whatsIncluded = [
   {
     title: 'Fibre Tubs',
+    desc: 'Sturdy, terrace-ready growing units',
+    image: '/images/lifestyle/rooftop-growbags.png',
+  },
+  {
+    title: 'Drip Irrigation',
+    desc: 'Automated, water-saving watering',
+    image: '/images/drip-irrigation-balcony.png',
+  },
+  {
+    title: 'Organic Soil',
+    desc: 'Premium mix with cocopeat',
     image:
       'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=400&fit=crop',
   },
   {
-    title: 'Drip Irrigation',
-    image:
-      'https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=400&h=400&fit=crop',
-  },
-  {
-    title: 'Organic Soil',
-    image:
-      'https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=400&h=400&fit=crop',
-  },
-  {
     title: 'Seeds & Plants',
-    image:
-      'https://images.unsplash.com/photo-1591857177580-dc82b9ac4e1e?w=400&h=400&fit=crop',
+    desc: 'Seasonal vegetables, ready to grow',
+    image: '/images/lifestyle/apartment-seedlings.png',
   },
   {
-    title: 'Setup & Install',
-    image:
-      'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=400&h=400&fit=crop',
+    title: 'Setup & Training',
+    desc: 'Installed, explained, supported',
+    image: '/images/lifestyle/balcony-lifestyle.png',
   },
 ]
 
 export const benefits = [
   {
     icon: 'Hourglass',
-    title: 'Durable & Long Lasting',
-    desc: 'Heavy-duty FRP tubs and quality fittings built for years of harvest.',
+    title: 'Built to Last',
+    desc: 'Heavy-duty FRP tubs and quality fittings engineered for years of harvests in Bangalore weather.',
   },
   {
     icon: 'Droplets',
-    title: 'Water Efficient Drip System',
-    desc: 'Automated drip irrigation saves water while keeping plants perfectly hydrated.',
+    title: 'Water-Efficient Drip',
+    desc: 'Automated drip irrigation delivers moisture at the root — saving water while keeping plants consistently hydrated.',
   },
   {
     icon: 'Leaf',
-    title: 'Eco-Friendly Solution',
-    desc: '100% organic farming — no chemicals, pure soil to harvest.',
+    title: 'Truly Organic',
+    desc: 'Chemical-free soil, bio-nutrients and pest care from the first planting to every plate you serve.',
   },
 ]
 
 export const howItWorks = [
   {
     step: '01',
-    title: 'Book Free Inspection',
-    desc: 'We visit your terrace free of cost and assess the space.',
+    title: 'Complimentary Inspection',
+    desc: 'We visit your terrace, balcony or vacant plot at no cost, study sunlight, water access, soil and usable area, then advise honestly.',
   },
   {
     step: '02',
-    title: 'Customized Plan',
-    desc: 'Get a tailored garden layout suited to your family and terrace.',
+    title: 'Custom Garden Plan',
+    desc: 'You receive a layout tailored to your family, space and preferred vegetables — with a clear list of materials and timeline.',
   },
   {
     step: '03',
-    title: 'Setup & Installation',
-    desc: 'Our team installs tubs, drip system, soil, and plants completely.',
+    title: 'Professional Installation',
+    desc: 'Our team installs tubs, stands, drip lines, plumbing, organic soil mix, seeds and plants as a complete system.',
   },
   {
     step: '04',
-    title: 'Training & Support',
-    desc: 'We teach you care basics. Any issue — we come and fix it.',
+    title: 'Training & After-Care',
+    desc: 'We teach simple daily and weekly care. If something needs attention, we return and set it right.',
   },
   {
     step: '05',
-    title: 'Harvest & Enjoy',
-    desc: 'Pick fresh organic veggies from your own terrace garden.',
+    title: 'Harvest at Home',
+    desc: 'Pick fresh, chemical-free vegetables steps from your kitchen — season after season, with our support nearby.',
   },
 ]
 
@@ -159,79 +455,114 @@ export const testimonials = [
     name: 'Priya S.',
     location: 'HSR Layout, Bangalore',
     quote:
-      'Our kids now eat fresh palak grown on our terrace. No pesticides, no tension. ARYAN team handled everything.',
+      'Our children now ask for palak they helped harvest on the terrace. The installation was tidy, the training was clear, and we have not used a single chemical spray.',
     rating: 5,
   },
   {
     name: 'Ramesh K.',
     location: 'Whitefield, Bangalore',
     quote:
-      'Fully automated drip system is a game changer. We just harvest and eat. Every drop really feels organic.',
+      'The automated drip system changed how we live with plants. We travel for work and still come home to healthy greens. Every drop truly feels organic.',
     rating: 5,
   },
   {
     name: 'Ananya M.',
     location: 'Koramangala, Bangalore',
     quote:
-      'From soil to seeds to training — the team did it all. Best decision for our apartment terrace.',
+      'From soil selection to the first harvest, the team handled the entire process. It is the most considered decision we have made for our apartment terrace.',
     rating: 5,
   },
 ]
 
 export const galleryImages = [
   {
+    src: '/images/drip-irrigation-balcony.png',
+    alt: 'Automatic drip irrigation on a balcony — misting nozzles watering potted plants',
+  },
+  {
+    src: '/images/lifestyle/rooftop-sunset-oasis.png',
+    alt: 'Sunset rooftop garden with vegetables, grow bags, a vine pergola and a seating corner above the city',
+  },
+  {
+    src: '/images/land-site-garden.png',
+    alt: 'Blank land converted into an organic garden — raised beds, grow bags, trellis crops and drip irrigation',
+    caption:
+      'From unused plot to a working garden — raised planter beds, climbing trellises, grow bags and automated drip on open land.',
+  },
+  {
+    src: '/images/terrace-organic-garden.jpg',
+    alt: 'ARYAN rooftop garden — brinjal, tomatoes, leafy greens and drip irrigation',
+  },
+  {
+    src: '/images/nursery-shade-net.jpg',
+    alt: 'ARYAN ORGANICS nursery — rows of healthy seedlings under shade net',
+  },
+  {
     src: '/images/lifestyle/balcony-lifestyle.png',
-    alt: 'Apartment balcony garden — watering pots at golden hour',
+    alt: 'Family watering an apartment balcony garden at golden hour',
   },
   {
     src: '/images/lifestyle/balcony-harvest.png',
-    alt: 'Balcony pots with tomatoes, chillies and leafy greens',
+    alt: 'Balcony harvest of tomatoes, chillies and leafy greens',
+  },
+  {
+    src: '/images/lifestyle/urban-rooftop-garden.png',
+    alt: 'Sunlit rooftop garden with raised planters of tomatoes and leafy greens on a wooden deck',
+  },
+  {
+    src: '/images/lifestyle/rooftop-sunset-living.png',
+    alt: 'Sunset rooftop garden with raised vegetable beds, a vertical plant wall and a seating corner above the city',
   },
   {
     src: '/images/lifestyle/rooftop-growbags.png',
-    alt: 'Urban rooftop grow bags with flowering plants',
+    alt: 'Urban rooftop garden with organised grow bags',
   },
   {
     src: '/images/lifestyle/apartment-seedlings.png',
-    alt: 'Indoor seedling trays and herb pots by the window',
+    alt: 'Indoor seedling trays and herb pots by a bright window',
   },
   {
     src: '/images/lifestyle/indoor-hydroponics.png',
-    alt: 'Indoor hydroponic shelves — how plants thrive in apartments',
+    alt: 'Indoor growing shelves showing how plants thrive in apartments',
   },
   {
     src: '/images/lifestyle/pot-tomatoes.png',
-    alt: 'Tomato plant growing in a large pot with ripe harvest',
+    alt: 'Cage-supported tomato plant with ripe fruit in a large pot',
   },
   {
     src: '/images/banner.png',
-    alt: 'ARYAN ORGANICS — nature nurture organic growth',
+    alt: 'ARYAN ORGANICS — nature, nurture and organic growth',
   },
   {
     src: '/images/hero-brand.png',
-    alt: 'Hands nurturing organic seedling',
+    alt: 'Hands nurturing an organic seedling',
   },
 ]
 
 export const apartmentLiving = {
-  eyebrow: 'Apartment Living',
-  title: 'How plants live where people live',
+  eyebrow: 'Designed for Urban Homes',
+  title: 'Organic gardens that fit the way Bangalore lives',
   subtitle:
-    'From balcony pots to terrace grow bags — ARYAN brings organic growth into Bangalore apartments, villas and homes.',
+    'From compact balcony pots and full terrace systems to vacant plots, ARYAN adapts organic growing to apartments, villas, independent homes and unused land — without asking you to become a farmer.',
   points: [
     {
-      title: 'Balcony & railing pots',
-      text: 'Herbs, chillies and greens in terracotta and grow bags — perfect for small apartments.',
-      image: '/images/lifestyle/balcony-harvest.png',
+      title: 'Full terrace vegetable gardens',
+      text: 'Raised beds, vertical planters, fruiting crops and a place to sit — a complete rooftop farm of tomato, greens and herbs.',
+      image: '/images/lifestyle/rooftop-sunset-oasis.png',
     },
     {
-      title: 'Indoor & window gardens',
-      text: 'Seedlings, microgreens and hydroponic shelves that thrive with light and care.',
-      image: '/images/lifestyle/indoor-hydroponics.png',
+      title: 'Blank land and open plots',
+      text: 'Vacant sites become organised organic farms — raised planter boxes, nursery grow bags, drip irrigation and a protective mesh fence.',
+      image: '/images/land-site-garden.png',
     },
     {
-      title: 'People + plants lifestyle',
-      text: 'Water, harvest and enjoy — organic food grown by your family, steps from the kitchen.',
+      title: 'Nursery-raised plants',
+      text: 'Healthy seedlings grown under shade net in our nursery, then installed on your terrace so the garden starts strong.',
+      image: '/images/nursery-shade-net.jpg',
+    },
+    {
+      title: 'A family ritual, not a chore',
+      text: 'A few minutes of care, then harvest and cook. Children learn where food comes from — steps from the kitchen.',
       image: '/images/lifestyle/balcony-lifestyle.png',
     },
   ],
@@ -239,33 +570,51 @@ export const apartmentLiving = {
 
 export const blogPosts = [
   {
+    slug: 'blank-land-organic-garden',
+    category: 'Land & Plots',
+    title: 'From Blank Land to an Organic Garden',
+    excerpt:
+      'How a vacant plot becomes a working farm — raised planter beds, grow bags, trellis crops, drip irrigation and a nursery row on open ground.',
+    image: '/images/land-site-garden.png',
+    date: 'Sep 1, 2026',
+    content: [
+      'Unused land is one of the most overlooked places to grow food. A vacant site beside the house, a backyard that has stayed red earth, or an open plot behind a school can become a structured organic garden — without pouring a concrete farm or hiring a full-time gardener.',
+      'The layout starts with the land you have. Raised planter boxes on metal stands keep soil off the ground, create clear walking paths, and make watering and harvest easier. Climbing frames over those beds give beans, gourds and leafy vines height. Beside them, grow bags hold seedlings and fruiting plants in neat rows — a nursery sitting on the same plot.',
+      'Water is planned as a system, not a hose. PVC lines run between beds, a filter and pump station meters what each row receives, and drip emitters water at the root. A green mesh fence on simple poles breaks wind and marks the garden as a cared-for space, not leftover ground.',
+      'Soil still matters. We use a premium organic mix in the beds and bags so the harvest is chemical-free from the first planting. The native red earth stays as the floor of the site; it does not have to become the growing media.',
+      'ARYAN ORGANICS designs this end to end for open plots across Bangalore and the Kolar region: inspection, layout, raised beds, grow bags, drip, plants and training. Book a complimentary land visit if you have a blank site and want it to start feeding the household.',
+    ],
+  },
+  {
     slug: 'apartment-balcony-garden-pots',
     category: 'Apartment Living',
     title: 'How to Start an Apartment Balcony Garden with Pots',
     excerpt:
-      'Pots, grow bags and railing planters — grow tomatoes, chillies and greens in small Bangalore spaces.',
+      'A considered guide to pots, grow bags and railing planters — so tomatoes, chillies and greens thrive in compact Bangalore homes.',
     image: '/images/lifestyle/balcony-harvest.png',
     date: 'Aug 20, 2026',
     content: [
-      'Apartment living does not mean you cannot grow food. With the right pots, soil and sunlight, your balcony can become a productive mini farm.',
-      'Start with terracotta or FRP tubs for tomatoes and leafy greens. Use railing pots for herbs like coriander and mint. Grow bags work well for vertical setups when floor space is limited.',
-      'ARYAN ORGANICS installs complete terrace and balcony systems for apartments — drip irrigation, organic soil mix, seeds and training included. You just harvest and eat.',
-      'Tip: Place fruiting plants (tomato, chilli) where they get 4–6 hours of sun. Leafy greens can manage with softer light near the railing.',
+      'Apartment living does not have to mean depending entirely on the market. With the right containers, soil and sunlight, a balcony can become a quiet, productive garden that feeds your kitchen through the week.',
+      'Begin with purpose-built pots rather than decorative leftovers. Terracotta breathes well for herbs. Heavy-duty FRP tubs hold moisture and support fruiting plants such as tomato and chilli. Railing planters free the floor for walking space. Grow bags are useful when you need height without adding load.',
+      'Place fruiting plants where they receive four to six hours of direct sun. Leafy greens — palak, methi, coriander — tolerate softer light near the railing. Always confirm drainage. Standing water on a balcony slab is as harmful to the building as it is to the roots.',
+      'Soil matters more than most first-time growers expect. A premium organic mix with cocopeat holds moisture without becoming waterlogged, and it does not introduce chemical residue into food you will eat the same evening.',
+      'ARYAN ORGANICS installs complete balcony and terrace systems for apartments: drip irrigation, organic media, seasonal plants and practical training. You do not assemble a garden from scattered purchases. You receive a working system — then you harvest and cook.',
     ],
   },
   {
-    slug: 'how-plants-thrive-indoors',
-    category: 'Growth Tips',
-    title: 'How Plants Thrive Indoors — Light, Water & Pots',
+    slug: 'automatic-drip-irrigation',
+    category: 'Irrigation',
+    title: 'Automatic Drip Irrigation — Water the Roots, Save Every Drop',
     excerpt:
-      'Seedling trays, hydroponic shelves and window herbs — simple ways plants live well inside apartments.',
-    image: '/images/lifestyle/indoor-hydroponics.png',
+      'How a timed drip system keeps terrace plants hydrated while you work — less waste, healthier roots, and no daily hose.',
+    image: '/images/drip-irrigation-balcony.png',
     date: 'Aug 14, 2026',
     content: [
-      'Indoor plants need three things: light, water and the right pot. Hydroponic and LED shelf systems help lettuce and herbs grow even without a terrace.',
-      'Seedling trays near a bright window are perfect for starting palak, methi and microgreens. Keep soil moist — not flooded — and rotate trays for even growth.',
-      'If you want fully automated watering, ARYAN’s drip systems save every drop and keep roots healthy whether you grow indoors or on the terrace.',
-      'Remember: every drop is organic. Use chemical-free nutrients and bio fertilizers for safe, family-ready harvests.',
+      'Automatic drip irrigation is the heart of an ARYAN terrace garden. Thin lines carry water to each tub or grow bag and release it slowly at the root — not over the leaves, not across the slab, and not in a rush that floods the soil.',
+      'A simple timer opens the line for a few minutes each morning or evening. You do not stand with a hose. Plants receive the same measured drink every day, even when you travel or return late from work. On hot Bangalore afternoons, that consistency matters more than a long, occasional soak.',
+      'Drip saves water because almost nothing evaporates on the surface or runs off the terrace. Each emitter is placed where the plant actually drinks. Filters and fittings we install keep the line clear so emitters do not clog mid-season.',
+      'The system arrives as part of the complete setup: plumbing, drip pipe, emitters, timer and a short training on how to check a line or pause watering before rain. Every drop that reaches the plant is organic — clean water, chemical-free soil, no pesticide spray riding on the hose.',
+      'If your terrace still depends on a watering can, book a complimentary inspection. We will map sunlight, water pressure and tub layout, then install drip so harvests stay regular without daily labour.',
     ],
   },
   {
@@ -273,42 +622,44 @@ export const blogPosts = [
     category: 'Lifestyle',
     title: 'People Living with Plants — Organic Life in Bangalore Homes',
     excerpt:
-      'Families watering balcony gardens at sunset — why growing your own food changes how you live.',
+      'Why growing a little of your own food changes the rhythm of a household — from evening watering to the first plate of home-grown greens.',
     image: '/images/lifestyle/balcony-lifestyle.png',
     date: 'Aug 8, 2026',
     content: [
-      'When families grow vegetables on their balcony or terrace, kids learn where food comes from — and they happily eat fresh palak they helped grow.',
-      'A few minutes of watering each evening becomes a calm ritual. No pesticides. No market wait. Just harvest and cook.',
-      'ARYAN ORGANICS sets up the garden, teaches care, and stays on call. From Byranayakanahalli to Bangalore apartments — we bring organic living home.',
-      'Ready to start? Book a free terrace or balcony inspection this month.',
+      'When a family grows vegetables on a balcony or terrace, children stop treating food as something that appears in a bag. They watch a leaf unfurl. They harvest palak they planted. They eat it without negotiation.',
+      'A few minutes of evening watering becomes a calm, shared ritual. There is no waiting for a delivery slot and no doubt about pesticides. You harvest what is ready and cook what you harvested.',
+      'This is the life ARYAN ORGANICS is built to support. We install the garden, teach care in plain language, and remain reachable when a plant looks unhappy or a season changes. From Byranayakanahalli to apartments across Bangalore, our work is to bring organic living home — not as a hobby kit, but as a dependable household system.',
+      'If you are ready to begin, book a complimentary terrace or balcony inspection. We will tell you what the space can honestly produce, and we will design from there.',
     ],
   },
   {
     slug: 'grow-bags-rooftop-gardens',
     category: 'Terrace Setup',
-    title: 'Grow Bags & Rooftop Gardens for Urban Apartments',
+    title: 'Grow Bags and Rooftop Gardens for Urban Apartments',
     excerpt:
-      'Bright grow bags along the terrace edge — space-smart organic farming above the city.',
+      'Space-smart organic farming above the city — how organised grow bags and drip lines turn an open terrace into a productive garden.',
     image: '/images/lifestyle/rooftop-growbags.png',
     date: 'Aug 1, 2026',
     content: [
-      'Rooftop grow bags are ideal for apartments with open terrace access. They are light, movable and perfect for seasonal vegetables and flowers.',
-      'Pair grow bags with drip irrigation so plants get steady water without waste — especially important on hot Bangalore afternoons.',
-      'ARYAN installs vertical + grow bag layouts with drainage, organic soil and pest-safe nutrients so your rooftop stays productive year-round.',
+      'Open terraces are among the most underused assets in Bangalore apartments. Grow bags offer a light, movable way to farm that space without pouring concrete beds or overloading the slab.',
+      'Arrange bags along the terrace edge or in neat rows with walking space between. Pair them with drip irrigation so plants receive steady water through hot afternoons without a hose running for an hour. Good drainage and a quality organic mix keep roots cool and productive.',
+      'Seasonal planning matters on a rooftop. Leafy greens prefer milder stretches; fruiting crops want sun and support. A considered layout avoids shade from water tanks and parapet walls, and it keeps harvest paths clear.',
+      'ARYAN installs vertical and grow-bag layouts with drainage, organic soil, pest-safe nutrients and training — so a rooftop stays productive through the year, not only for one enthusiastic month.',
     ],
   },
   {
     slug: 'pot-grown-tomatoes-at-home',
     category: 'Tips & Tricks',
-    title: 'Growing Tomatoes in Pots — Fresh Harvest at Home',
+    title: 'Growing Tomatoes in Pots — A Fresh Harvest at Home',
     excerpt:
-      'Cage-supported tomato plants in large pots — ripe red harvests from your own terrace.',
+      'Large pots, sturdy support and consistent watering — the practical method for ripe, chemical-free tomatoes on a terrace or balcony.',
     image: '/images/lifestyle/pot-tomatoes.png',
     date: 'Jul 22, 2026',
     content: [
-      'Tomatoes love large pots (minimum 15–20 litres), strong support cages and consistent drip watering. Choose a sunny corner of your terrace or balcony.',
-      'Use premium organic soil with cocopeat, bio fertilizers and mulch to keep moisture in. Harvest when fruits are fully red for best taste.',
-      'With ARYAN’s automated drip and training, even first-time gardeners can enjoy chemical-free tomatoes at home.',
+      'Tomatoes reward patience and the right container. Choose a pot of at least 15–20 litres, a strong support cage, and a sunny, sheltered corner of the terrace or balcony. Small decorative pots starve the roots and disappoint the harvest.',
+      'Use a premium organic mix with cocopeat, feed with bio-fertilisers, and mulch the surface to hold moisture. Consistent drip watering prevents the split fruit that follows irregular soaking. Harvest when fruits are fully coloured for the best flavour.',
+      'Watch for common issues: yellowing lower leaves, hornworms, or flowers that drop in extreme heat. Organic pest care and a little afternoon shade on the hottest days usually restore balance.',
+      'With ARYAN’s automated drip and hands-on training, first-time gardeners regularly enjoy chemical-free tomatoes at home — the kind you slice the same afternoon they leave the vine.',
     ],
   },
   {
@@ -316,37 +667,60 @@ export const blogPosts = [
     category: 'Beginners',
     title: 'From Seedlings to Harvest — A Simple Home Guide',
     excerpt:
-      'Seed trays, tools and herb pots by the window — the first steps of growing organic food.',
+      'The first steps of growing organic food: seed trays, honest tools, and a clear path from a window sill to a productive pot.',
     image: '/images/lifestyle/apartment-seedlings.png',
     date: 'Jul 15, 2026',
     content: [
-      'Begin with a seedling tray, organic mix and a spray bottle. Once sprouts are strong, transplant into pots or grow bags on your balcony.',
-      'Keep tools simple: trowel, rake and mist bottle. Label each pot so kids can track growth.',
-      'When you are ready for a complete automated terrace garden, ARYAN handles setup end to end — from seed to harvest, our responsibility.',
+      'Begin simply. A seedling tray, an organic mix and a spray bottle are enough to start palak, methi or a handful of herbs. Place the tray in bright, indirect light. Keep the surface moist, not wet, and wait for sturdy stems before you transplant.',
+      'Keep tools few and useful: a trowel, a small rake, a mist bottle and labels. Children enjoy tracking which pot is which. Transplant into pots or grow bags once roots hold the mix together when you lift a seedling.',
+      'The jump from a tray on the window to a reliable kitchen supply is where most households stall. That is the gap our service is designed to close. When you are ready for a complete automated terrace garden, ARYAN handles the system end to end — from seed to harvest, our responsibility.',
+      'Book a complimentary inspection if you would like a plan that matches your space, your family and the vegetables you actually cook.',
     ],
   },
 ]
 
 export const pitchPoints = [
   {
-    title: 'Health First',
-    text: 'Kids will eat fresh palak grown by you. No pesticides.',
+    title: 'Health, first and always',
+    text: 'Children eat greens grown a few steps from the kitchen — without pesticides, without doubt about what went into the soil.',
   },
   {
-    title: 'We Handle Everything',
-    text: 'Soil, seeds, setup, training — ARYAN team does it. You just harvest.',
+    title: 'We handle the complete system',
+    text: 'Soil, seeds, tubs, drip, installation and training are one service. You learn the essentials. Then you harvest.',
   },
   {
-    title: 'CEO Support',
-    text: "I'm CEO. My number is with you. Any problem, I'll come fix it.",
+    title: 'Accountable leadership',
+    text: 'You deal with the people who build the garden. Our founder remains reachable. If something needs fixing, we come.',
   },
 ]
 
 export const servicesList = [
-  'Installing customer terrace gardens',
-  'Automated organic farming systems',
-  'Vertical grow bag & FRP tub setups',
-  'Drip irrigation & plumbing',
-  'Training & ongoing support',
-  'Free terrace inspection in Bangalore',
+  {
+    title: 'Terrace garden design & installation',
+    text: 'Complete organic systems for apartments, villas and independent homes — planned around your terrace, not a generic kit.',
+  },
+  {
+    title: 'Open plot & vacant land gardens',
+    text: 'Turn unused sites into structured organic farms — raised planter beds, grow bags, climbing trellises, drip lines, filtration and a protective fence.',
+  },
+  {
+    title: 'Automated organic farming systems',
+    text: 'Timed drip irrigation, quality fittings and chemical-free nutrition so the garden works with a busy household.',
+  },
+  {
+    title: 'Vertical, grow-bag & FRP tub setups',
+    text: 'Layouts that respect terrace load, wind and walking space while maximising harvest from a compact footprint.',
+  },
+  {
+    title: 'Drip irrigation & plumbing',
+    text: 'Water lines, filters and emitters installed as part of the system — measured watering, less waste, healthier roots.',
+  },
+  {
+    title: 'Training & ongoing support',
+    text: 'Clear care guidance after installation, plus return visits when a season changes or a plant needs attention.',
+  },
+  {
+    title: 'Complimentary site inspection',
+    text: 'A free visit across Bangalore and the Kolar region to assess sunlight, water and space before you commit.',
+  },
 ]

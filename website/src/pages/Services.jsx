@@ -9,9 +9,9 @@ export default function Services() {
     <>
       <PageHero
         eyebrow="Our Service"
-        title="ARYAN Terrace Garden Setup"
-        subtitle={`${company.kannada.service} — Grow your own organic vegetables at home. Fully automated. 100% organic.`}
-        image="https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=1400&h=600&fit=crop"
+        title="Complete organic terrace and land garden setup"
+        subtitle={`${company.kannada.service} — Professionally designed, fully automated systems for terraces, balconies and vacant plots, so your household grows chemical-free vegetables at home.`}
+        image="/images/lifestyle/rooftop-sunset-living.png"
       />
 
       <section className="py-16 lg:py-20">
@@ -21,16 +21,19 @@ export default function Services() {
               <SectionHeading
                 align="left"
                 eyebrow="What We Do"
-                title="Installing customer terrace gardens"
-                subtitle="We target apartments, villas, schools, and offices with terrace space across Bangalore."
+                title="We install the way you grow — not just the plants"
+                subtitle="Apartments, villas, schools, offices and unused land across Bangalore and the Kolar region. Each garden is planned for the space, sunlight and family it will feed."
               />
-              <ul className="mt-8 space-y-3">
+              <ul className="mt-8 space-y-4">
                 {servicesList.map((s) => (
-                  <li key={s} className="flex items-start gap-3 text-forest-800">
-                    <span className="mt-1 flex h-5 w-5 items-center justify-center rounded-full bg-leaf-100 text-forest-700">
+                  <li key={s.title} className="flex items-start gap-3 text-forest-800">
+                    <span className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-leaf-100 text-forest-700">
                       <Icon name="Check" className="w-3.5 h-3.5" />
                     </span>
-                    {s}
+                    <span>
+                      <span className="font-semibold block">{s.title}</span>
+                      <span className="text-sm text-forest-700/70 leading-relaxed">{s.text}</span>
+                    </span>
                   </li>
                 ))}
               </ul>
@@ -61,8 +64,8 @@ export default function Services() {
       <section className="py-16 bg-mist">
         <div className="container-site section-pad">
           <SectionHeading
-            title="System & materials we install"
-            subtitle="Premium configuration for a durable, water-efficient organic garden."
+            title="System and materials we install"
+            subtitle="A durable, water-efficient configuration — specified for Indian terraces and long harvest seasons."
             className="mb-10"
           />
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -74,7 +77,10 @@ export default function Services() {
                 <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-forest-800 text-leaf-300">
                   <Icon name={c.icon} className="w-5 h-5" />
                 </span>
-                <p className="text-sm font-medium text-forest-800 pt-2">{c.label}</p>
+                <div className="pt-0.5">
+                  <p className="text-sm font-medium text-forest-800">{c.label}</p>
+                  {c.desc && <p className="mt-0.5 text-xs text-forest-600/75">{c.desc}</p>}
+                </div>
               </div>
             ))}
           </div>

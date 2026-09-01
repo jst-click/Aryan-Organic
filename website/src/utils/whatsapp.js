@@ -32,7 +32,7 @@ export function buildInspectionWhatsAppMessage(data) {
     `*Property type:* ${data.propertyType}`,
     `*Preferred visit day:* ${data.visitDay || '-'}`,
     '',
-    '*Terrace notes:*',
+    '*Site notes:*',
     data.notes || '-',
   ].join('\n')
 }

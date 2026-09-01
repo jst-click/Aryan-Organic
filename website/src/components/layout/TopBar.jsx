@@ -1,11 +1,13 @@
 import { company } from '../../data/content'
 import Icon from '../ui/Icon'
+import SocialIcon from '../ui/SocialIcon'
 
-const socialLinks = [
-  { icon: 'MessageCircle', href: company.social.whatsapp, label: 'WhatsApp' },
-  { icon: 'Facebook', href: company.social.facebook, label: 'Facebook' },
-  { icon: 'Instagram', href: company.social.instagram, label: 'Instagram' },
-  { icon: 'Youtube', href: company.social.youtube, label: 'YouTube' },
+export const socialLinks = [
+  { icon: 'facebook', href: company.social.facebook, label: 'Facebook' },
+  { icon: 'instagram', href: company.social.instagram, label: 'Instagram' },
+  { icon: 'mail', href: `mailto:${company.contact.email}`, label: 'Email' },
+  { icon: 'whatsapp', href: company.social.whatsapp, label: 'WhatsApp' },
+  { icon: 'youtube', href: company.social.youtube, label: 'YouTube' },
 ]
 
 export default function TopBar() {
@@ -17,7 +19,7 @@ export default function TopBar() {
             <p className="hidden lg:block truncate text-leaf-200/90">
               <span className="text-leaf-300 font-medium">{company.tagline}</span>
               <span className="mx-2 text-leaf-500/40">|</span>
-              Free terrace inspection in Bangalore
+              Complimentary terrace inspection in Bangalore
             </p>
             <p className="lg:hidden truncate text-leaf-200/90">
               {company.slogan} — Free inspection
@@ -53,12 +55,12 @@ export default function TopBar() {
                 <a
                   key={s.label}
                   href={s.href}
-                  target="_blank"
+                  target={s.href.startsWith('mailto:') ? undefined : '_blank'}
                   rel="noreferrer"
                   aria-label={s.label}
                   className="flex h-6 w-6 items-center justify-center rounded-full bg-white/10 text-leaf-200 hover:bg-leaf-500 hover:text-forest-950 transition"
                 >
-                  <Icon name={s.icon} className="w-3.5 h-3.5" />
+                  <SocialIcon name={s.icon} className="w-3.5 h-3.5" />
                 </a>
               ))}
             </div>

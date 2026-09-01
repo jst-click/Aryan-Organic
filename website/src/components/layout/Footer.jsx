@@ -3,13 +3,8 @@ import { company } from '../../data/content'
 import Button from '../ui/Button'
 import BrandLogo from '../ui/BrandLogo'
 import Icon from '../ui/Icon'
-
-const socialLinks = [
-  { icon: 'MessageCircle', href: company.social.whatsapp, label: 'WhatsApp' },
-  { icon: 'Facebook', href: company.social.facebook, label: 'Facebook' },
-  { icon: 'Instagram', href: company.social.instagram, label: 'Instagram' },
-  { icon: 'Youtube', href: company.social.youtube, label: 'YouTube' },
-]
+import SocialIcon from '../ui/SocialIcon'
+import { socialLinks } from './TopBar'
 
 export default function Footer() {
   return (
@@ -18,10 +13,10 @@ export default function Footer() {
         <div className="container-site section-pad py-10 sm:py-12 flex flex-col sm:flex-row items-center justify-between gap-6">
           <div className="text-center sm:text-left">
             <h3 className="font-display text-2xl sm:text-3xl font-semibold text-white text-balance">
-              Ready to grow your own organic food?
+              Ready to grow organic food at home?
             </h3>
             <p className="mt-2 text-leaf-200/90">
-              Book your free terrace inspection today — Bangalore families welcome.
+              Book a complimentary terrace inspection — we serve families across Bangalore and Kolar.
             </p>
           </div>
           <Button to="/book-visit" variant="light" size="lg">
@@ -39,20 +34,19 @@ export default function Footer() {
               {company.tagline}
             </p>
             <p className="text-sm text-leaf-200/70 leading-relaxed max-w-sm">
-              {company.mission} We install automated organic terrace gardens so every family can
-              eat healthy, chemical-free food at home.
+              {company.mission}
             </p>
             <div className="flex gap-2.5 pt-1">
               {socialLinks.map((s) => (
                 <a
                   key={s.label}
                   href={s.href}
-                  target="_blank"
+                  target={s.href.startsWith('mailto:') ? undefined : '_blank'}
                   rel="noreferrer"
                   aria-label={s.label}
                   className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-leaf-300 hover:bg-leaf-500 hover:text-forest-950 transition"
                 >
-                  <Icon name={s.icon} className="w-4 h-4" />
+                  <SocialIcon name={s.icon} className="w-4 h-4" />
                 </a>
               ))}
             </div>
@@ -87,6 +81,7 @@ export default function Footer() {
             <ul className="space-y-2.5 text-sm">
               {[
                 ['Terrace Garden Setup', '/services'],
+                ['Land & Plot Gardens', '/services'],
                 ['How It Works', '/how-it-works'],
                 ['Book Free Inspection', '/book-visit'],
               ].map(([label, path]) => (
@@ -129,10 +124,6 @@ export default function Footer() {
                 </span>
               </li>
             </ul>
-            <p className="mt-5 inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-leaf-300">
-              <Icon name="Droplets" className="w-4 h-4 text-leaf-400" />
-              {company.slogan}
-            </p>
           </div>
         </div>
       </div>
@@ -140,14 +131,17 @@ export default function Footer() {
       <div className="border-t border-white/10 bg-forest-950">
         <div className="container-site section-pad py-4 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-leaf-200/60">
           <p>© {new Date().getFullYear()} ARYAN ORGANICS. All rights reserved.</p>
-          <div className="flex gap-4">
-            <Link to="/contact" className="hover:text-leaf-200">
-              Privacy Policy
-            </Link>
-            <Link to="/contact" className="hover:text-leaf-200">
-              Terms & Conditions
-            </Link>
-          </div>
+          <p>
+            Design & developed by{' '}
+            <a
+              href="https://jstclick.in/"
+              target="_blank"
+              rel="noreferrer"
+              className="text-leaf-300 hover:text-white font-medium transition"
+            >
+              JST CLICK
+            </a>
+          </p>
         </div>
       </div>
     </footer>

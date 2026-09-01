@@ -89,6 +89,24 @@ export default function Navbar() {
             </nav>
 
             <div className="flex items-center gap-2">
+              <a
+                href={`tel:+91${company.contact.phone.replace(/\D/g, '')}`}
+                className="hidden md:inline-flex items-center gap-1.5 rounded-lg border border-forest-800/15 px-3 py-2 text-sm font-semibold text-forest-800 hover:bg-leaf-50"
+                aria-label={`Call ${company.contact.phoneDisplay}`}
+              >
+                <Icon name="Phone" className="w-4 h-4" />
+                Call
+              </a>
+              <a
+                href={company.social.whatsapp}
+                target="_blank"
+                rel="noreferrer"
+                className="hidden md:inline-flex items-center gap-1.5 rounded-lg bg-[#25D366] px-3 py-2 text-sm font-semibold text-white hover:brightness-95"
+                aria-label="Chat on WhatsApp"
+              >
+                <Icon name="MessageCircle" className="w-4 h-4" />
+                WhatsApp
+              </a>
               <Button to="/book-visit" size="sm" className="hidden sm:inline-flex">
                 Book Free Visit
               </Button>
@@ -153,11 +171,20 @@ export default function Navbar() {
                 )}
                 <div className="pt-3 space-y-2">
                   <a
-                    href={`tel:${company.contact.phone}`}
-                    className="flex items-center justify-center gap-2 px-3 py-3 text-sm font-semibold text-forest-800 rounded-lg hover:bg-leaf-50"
+                    href={`tel:+91${company.contact.phone.replace(/\D/g, '')}`}
+                    className="flex items-center justify-center gap-2 px-3 py-3 text-sm font-semibold text-forest-800 rounded-lg border border-forest-800/10 hover:bg-leaf-50"
                   >
                     <Icon name="Phone" className="w-4 h-4" />
-                    {company.contact.phoneDisplay}
+                    Call {company.contact.phoneDisplay}
+                  </a>
+                  <a
+                    href={company.social.whatsapp}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="flex items-center justify-center gap-2 px-3 py-3 text-sm font-semibold text-white rounded-lg bg-[#25D366] hover:brightness-95"
+                  >
+                    <Icon name="MessageCircle" className="w-4 h-4" />
+                    WhatsApp
                   </a>
                   <Button to="/book-visit" className="w-full">
                     Book Free Visit

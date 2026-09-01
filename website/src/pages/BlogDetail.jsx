@@ -55,10 +55,10 @@ export default function BlogDetail() {
               <div className="mt-10 rounded-2xl bg-mist border border-forest-800/8 p-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
                 <div>
                   <p className="font-display text-xl font-semibold text-forest-900">
-                    Want this on your terrace?
+                      Bring this to your space
                   </p>
                   <p className="text-sm text-forest-700/70 mt-1">
-                    Free inspection for apartments & homes in Bangalore.
+                    Complimentary inspection for terraces, balconies and vacant plots across Bangalore.
                   </p>
                 </div>
                 <Button to="/book-visit">

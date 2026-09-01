@@ -3,7 +3,6 @@ import { company } from '../data/content'
 import { buildInspectionWhatsAppMessage, openWhatsApp } from '../utils/whatsapp'
 import PageHero from '../components/ui/PageHero'
 import Button from '../components/ui/Button'
-import BrandLogo from '../components/ui/BrandLogo'
 import Icon from '../components/ui/Icon'
 
 export default function BookVisit() {
@@ -29,25 +28,27 @@ export default function BookVisit() {
     <>
       <PageHero
         eyebrow="Free Inspection"
-        title="Book your free terrace visit"
-        subtitle="Should we come this weekend and check your terrace space? It's free. No chemicals. No tension — we set it up and teach you."
-        image="/images/hero-brand.png"
+        title="Book a complimentary site inspection"
+        subtitle="We visit your terrace, balcony or vacant plot, assess sunlight, water and usable space, and recommend an honest plan. There is no charge for the inspection — and no obligation to proceed."
+        image="/images/terrace-organic-garden.jpg"
       />
 
       <section className="py-16 lg:py-20">
         <div className="container-site section-pad">
           <div className="grid lg:grid-cols-5 gap-10 max-w-6xl mx-auto">
             <div className="lg:col-span-2 space-y-5">
-              <div className="rounded-2xl bg-black p-4 flex justify-center">
-                <BrandLogo to={null} variant="plain" size="full" className="max-w-[160px]" />
-              </div>
+              <img
+                src="/images/nursery-shade-net.jpg"
+                alt="ARYAN ORGANICS nursery seedlings under shade net"
+                className="rounded-2xl w-full h-48 object-cover"
+              />
               <div className="rounded-2xl bg-forest-800 text-white p-6">
                 <h2 className="font-display text-xl font-semibold">What happens next?</h2>
                 <ol className="mt-4 space-y-3 text-sm text-leaf-100/85 list-decimal list-inside">
-                  <li>Submit the form — WhatsApp opens with your details</li>
-                  <li>We confirm your slot by phone or WhatsApp</li>
-                  <li>Visit your terrace — measure & advise</li>
-                  <li>Install, train, and you start harvesting</li>
+                  <li>Share your details — WhatsApp opens with a prepared message</li>
+                  <li>We confirm a convenient visit by phone or WhatsApp</li>
+                  <li>We assess your terrace, balcony or vacant plot — sunlight, water, space and layout</li>
+                  <li>If you proceed, we install, train and support your first harvests</li>
                 </ol>
               </div>
               <div className="rounded-2xl border border-forest-800/8 bg-leaf-50 p-5">
@@ -55,8 +56,8 @@ export default function BookVisit() {
                   🎁 First 10 customers in Bangalore get free 1kg organic compost
                 </p>
                 <p className="mt-3 text-sm text-forest-700/80">
-                  Complete terrace garden setup — grow bags, drip irrigation, soil, seeds &
-                  training for families and apartments.
+                  Complete terrace garden setup — grow bags or FRP tubs, drip irrigation, organic
+                  soil, seeds and training for families and apartments.
                 </p>
               </div>
               <div className="rounded-2xl border border-forest-800/8 bg-white p-5 space-y-3">
@@ -170,6 +171,7 @@ export default function BookVisit() {
                           <option>Apartment</option>
                           <option>Villa</option>
                           <option>Independent house</option>
+                          <option>Open plot / vacant land</option>
                           <option>School / Office</option>
                         </select>
                       </label>
@@ -185,13 +187,13 @@ export default function BookVisit() {
                       </label>
                       <label className="block sm:col-span-2">
                         <span className="text-xs font-semibold uppercase tracking-wider text-forest-600">
-                          Notes about your terrace
+                          Notes about your terrace or land
                         </span>
                         <textarea
                           name="notes"
                           rows={3}
                           className="mt-1.5 w-full rounded-lg border border-forest-800/15 px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-leaf-400 resize-y"
-                          placeholder="Size, sunlight, access..."
+                          placeholder="Terrace, balcony or vacant plot — size, sunlight, access..."
                         />
                       </label>
                       <div className="sm:col-span-2 flex flex-wrap gap-3">

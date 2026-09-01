@@ -8,8 +8,8 @@ export default function Blog() {
     <>
       <PageHero
         eyebrow="Blog"
-        title="From our garden journal"
-        subtitle="Apartment living, pots & grow bags, and how families grow organic food at home."
+        title="From the garden journal"
+        subtitle="Practical writing on apartment growing, terrace design, vacant-plot gardens and the daily rhythm of organic food at home."
       />
       <section className="py-16 lg:py-20">
         <div className="container-site section-pad">

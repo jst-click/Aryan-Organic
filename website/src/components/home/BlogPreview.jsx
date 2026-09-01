@@ -20,7 +20,7 @@ export default function BlogPreview() {
       <div className="container-site section-pad">
         <SectionHeading
           eyebrow="From Our Blog"
-          title="Apartment living & organic growth tips"
+          title="Practical guidance for growing at home"
           className="mb-12"
         />
 
@@ -74,7 +74,7 @@ export default function BlogPreview() {
           >
             <h3 className="font-display text-2xl font-semibold">Stay Updated</h3>
             <p className="mt-2 text-sm text-leaf-200/80">
-              Get notified when we install in your area of Bangalore.
+              Seasonal growing notes and updates when we are installing in your part of Bangalore.
             </p>
             {done ? (
               <p className="mt-6 text-leaf-300 font-medium">Thanks! We&apos;ll keep you posted.</p>

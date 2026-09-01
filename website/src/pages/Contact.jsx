@@ -3,7 +3,6 @@ import { company } from '../data/content'
 import { buildContactWhatsAppMessage, openWhatsApp } from '../utils/whatsapp'
 import PageHero from '../components/ui/PageHero'
 import Button from '../components/ui/Button'
-import BrandLogo from '../components/ui/BrandLogo'
 import Icon from '../components/ui/Icon'
 
 export default function Contact() {
@@ -27,8 +26,9 @@ export default function Contact() {
     <>
       <PageHero
         eyebrow="Contact Us"
-        title="Let's grow organic together"
-        subtitle="Apartments, villas, schools, offices — free terrace inspection this month in Bangalore."
+        title="Let us plan your terrace garden"
+        subtitle="Apartments, villas, schools and offices across Bangalore and Kolar — complimentary inspection, considered advice, and a complete organic system if the space is right."
+        image="/images/nursery-shade-net.jpg"
       />
 
       <section className="py-16 lg:py-20">
@@ -97,9 +97,11 @@ export default function Contact() {
                 <span className="text-forest-600 font-medium">{company.kannada.everyDrop}</span>
               </p>
 
-              <div className="rounded-2xl bg-black p-5 flex justify-center">
-                <BrandLogo to={null} variant="plain" size="full" className="max-w-[180px]" />
-              </div>
+              <img
+                src="/images/lifestyle/rooftop-sunset-living.png"
+                alt="Sunset rooftop garden with raised vegetable beds and city views"
+                className="rounded-2xl w-full h-48 object-cover"
+              />
             </div>
 
             <div className="lg:col-span-3">
@@ -108,7 +110,8 @@ export default function Contact() {
                   Send us a message
                 </h2>
                 <p className="mt-2 text-sm text-forest-700/70">
-                  Tell us about your terrace — we&apos;ll get back within 24 hours.
+                  Share a few details about your terrace or balcony. We typically respond within 24
+                  hours.
                 </p>
 
                 {sent ? (

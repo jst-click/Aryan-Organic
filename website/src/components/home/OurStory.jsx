@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion'
 import { company, pitchPoints } from '../../data/content'
 import Button from '../ui/Button'
-import BrandLogo from '../ui/BrandLogo'
 import SectionHeading from '../ui/SectionHeading'
 
 export default function OurStory() {
@@ -17,17 +16,19 @@ export default function OurStory() {
           >
             <div className="grid grid-cols-2 gap-4">
               <img
-                src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600&h=700&fit=crop"
-                alt="Family terrace garden"
+                src="/images/terrace-organic-garden.jpg"
+                alt="Installed rooftop vegetable garden"
                 className="rounded-2xl object-cover h-64 sm:h-80 w-full mt-8"
               />
               <div className="space-y-4">
-                <div className="rounded-2xl bg-black p-3 h-40 sm:h-48 flex items-center justify-center overflow-hidden">
-                  <BrandLogo to={null} variant="plain" size="full" className="max-w-[140px]" />
-                </div>
                 <img
-                  src="/images/hero-brand.png"
-                  alt="Nature's nurture"
+                  src="/images/lifestyle/balcony-harvest.png"
+                  alt="Balcony harvest of tomatoes, chillies and leafy greens"
+                  className="rounded-2xl object-cover h-40 sm:h-48 w-full"
+                />
+                <img
+                  src="/images/nursery-shade-net.jpg"
+                  alt="Nursery seedlings grown for terrace gardens"
                   className="rounded-2xl object-cover h-40 sm:h-48 w-full"
                 />
               </div>
@@ -42,18 +43,19 @@ export default function OurStory() {
             <SectionHeading
               align="left"
               eyebrow="Our Story"
-              title="We sell the way to grow veggies"
+              title="We restore the way families grow food"
               subtitle=""
             />
             <p className="mt-4 text-forest-700/75 leading-relaxed">
-              Hi, I&apos;m {company.ceo.name} from ARYAN ORGANICS. Instead of buying vegetables, why
-              not grow your own? We install a complete organic terrace garden in your home. No
-              chemicals. No tension. We set it up and teach you — you just harvest and eat.
+              ARYAN ORGANICS was founded by {company.ceo.name} on a clear idea: every family
+              deserves organic food, and every unused terrace can become a small, productive farm.
+              We design and install the complete system — then stay responsible from seed to harvest.
+            </p>
+            <p className="mt-3 text-forest-700/75 leading-relaxed">
+              {company.vision} That is why we work with apartments, villas, schools and offices
+              across Bangalore and the Kolar region.
             </p>
             <p className="mt-3 text-forest-600 font-medium">{company.kannada.everyDrop}</p>
-            <p className="mt-3 text-sm text-forest-700/70 italic">
-              &ldquo;{company.mission}&rdquo; — Coming soon all over Bangalore.
-            </p>
 
             <ul className="mt-8 space-y-4">
               {pitchPoints.map((p) => (
@@ -68,7 +70,7 @@ export default function OurStory() {
             </ul>
 
             <Button to="/about" className="mt-8">
-              Know More About Us
+              Our Vision, Mission & Story
             </Button>
           </motion.div>
         </div>

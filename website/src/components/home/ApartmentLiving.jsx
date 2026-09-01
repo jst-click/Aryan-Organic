@@ -11,7 +11,7 @@ export default function ApartmentLiving() {
       <div className="container-site section-pad">
         <SectionHeading eyebrow={eyebrow} title={title} subtitle={subtitle} className="mb-12" />
 
-        <div className="grid lg:grid-cols-3 gap-6 lg:gap-8">
+        <div className="grid sm:grid-cols-2 gap-6 lg:gap-8">
           {points.map((item, i) => (
             <motion.article
               key={item.title}

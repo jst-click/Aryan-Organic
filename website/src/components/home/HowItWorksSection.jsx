@@ -8,8 +8,8 @@ export default function HowItWorksSection() {
       <div className="container-site section-pad">
         <SectionHeading
           eyebrow="Simple Process"
-          title="How It Works"
-          subtitle="From free inspection to your first harvest — we make organic growing effortless."
+          title="A clear path from inspection to harvest"
+          subtitle="Five considered steps — complimentary site visit, custom plan, professional installation, training and ongoing support."
           className="mb-14"
         />
 

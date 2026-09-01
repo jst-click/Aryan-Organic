@@ -14,7 +14,7 @@ export default function GalleryPreview() {
           <SectionHeading
             align="left"
             eyebrow="Garden Gallery"
-            title="Pots, balconies & terrace harvests"
+            title="Gardens that belong in homes and on unused land"
             className="mb-0"
           />
           <Button to="/gallery" variant="outline" size="sm">
