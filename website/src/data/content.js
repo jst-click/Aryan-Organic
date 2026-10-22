@@ -335,7 +335,7 @@ export const navLinks = [
     label: 'Our Service',
     path: '/services',
     children: [
-      { label: 'Landscape Indoor & Outdoor', path: '/services/indoor-outdoor' },
+      { label: 'Aryan Organic Indoor & Outdoor', path: '/services/indoor-outdoor' },
       { label: 'Land & Plot Gardens', path: '/services/land-plot' },
       { label: 'Terrace Garden Setup', path: '/services/terrace' },
     ],
@@ -366,15 +366,15 @@ export const plantVarietyCards = [
   { label: 'Indoor Plants', image: '/images/plants/snake-plant-mint.png' },
   { label: 'Outdoor Plants', image: '/images/plants/outdoor-faceted-pots.jpg' },
   { label: 'Flowering Plants', image: '/images/plants/peace-lily-ribbed.jpg' },
-  { label: 'Fruit Plants', image: '/images/lifestyle/pot-tomatoes.png' },
+  { label: 'Fruit Plants', image: '/images/plants/fruit-orange-plant.jpg' },
 ]
 
 export const premiumPotGallery = [
-  '/images/plants/outdoor-faceted-pots.jpg',
-  '/images/plants/spider-rubber-pots.jpg',
-  '/images/plants/office-planters.jpg',
-  '/images/plants/peace-lily-ribbed.jpg',
-  '/images/plants/monstera-studio.jpg',
+  { label: 'Stone Finish', image: '/images/plants/outdoor-faceted-pots.jpg' },
+  { label: 'Matte Ribbed', image: '/images/plants/spider-rubber-pots.jpg' },
+  { label: 'Geometric', image: '/images/plants/office-planters.jpg' },
+  { label: 'Modern Grey', image: '/images/plants/peace-lily-ribbed.jpg' },
+  { label: 'Minimal White', image: '/images/plants/monstera-studio.jpg' },
 ]
 
 export const premiumPotFeatures = [
@@ -390,6 +390,122 @@ export const serviceOfferings = [
   { label: 'Pot Supply', icon: 'Flower2' },
   { label: 'Installation', icon: 'Wrench' },
   { label: 'Maintenance Support', icon: 'Settings' },
+]
+
+export const plantServiceCards = [
+  {
+    title: 'Plant Supply',
+    icon: 'Leaf',
+    text: 'Wide range of healthy plants for all spaces.',
+    image: '/images/plants/indoor-trio-table.jpg',
+  },
+  {
+    title: 'Landscape Design',
+    icon: 'Trees',
+    text: 'Beautiful outdoor spaces crafted for you.',
+    image: '/images/plants/balcony-stone-pot.jpg',
+  },
+  {
+    title: 'Pot Supply',
+    icon: 'Flower2',
+    text: 'Stylish premium pots for every plant.',
+    image: '/images/plants/peace-lily-ribbed.jpg',
+  },
+  {
+    title: 'Installation',
+    icon: 'Wrench',
+    text: 'Professional setup and arrangement.',
+    image: '/images/lifestyle/balcony-lifestyle.png',
+  },
+  {
+    title: 'Maintenance Support',
+    icon: 'Settings',
+    text: 'Ongoing care and support for your plants.',
+    image: '/images/nursery-shade-net.jpg',
+  },
+]
+
+export const aryanDifference = [
+  {
+    icon: 'Leaf',
+    title: 'Premium Quality Plants',
+    text: 'Healthy, handpicked and long-lasting plants.',
+  },
+  {
+    icon: 'Sparkles',
+    title: 'Expert Guidance',
+    text: 'Get professional advice for your green spaces.',
+  },
+  {
+    icon: 'Layers',
+    title: 'Wide Range',
+    text: 'Indoor, outdoor, flowering, fruit and more.',
+  },
+  {
+    icon: 'Truck',
+    title: 'On-Time Delivery',
+    text: 'Fresh plants delivered safely to your location.',
+  },
+  {
+    icon: 'Sprout',
+    title: 'Eco Friendly',
+    text: 'Sustainable practices for a greener future.',
+  },
+  {
+    icon: 'IndianRupee',
+    title: 'Competitive Pricing',
+    text: 'Best quality at great value.',
+  },
+  {
+    icon: 'Trees',
+    title: 'Custom Landscaping',
+    text: 'Tailored solutions for homes, offices & businesses.',
+  },
+  {
+    icon: 'Headphones',
+    title: 'After Sales Support',
+    text: "We're here even after your purchase.",
+  },
+]
+
+export const plantPageTestimonial = {
+  name: 'Priya Sharma',
+  location: 'Bangalore',
+  rating: 5,
+  quote:
+    'Aryan Organic transformed our balcony into a green retreat. The plants are healthy, the pots look premium, and the team guided us at every step.',
+  image: '/images/lifestyle/balcony-lifestyle.png',
+}
+
+export const plantPageGallery = [
+  '/images/plants/peace-lily-patio.jpg',
+  '/images/plants/indoor-trio-white.jpg',
+  '/images/plants/office-planters.jpg',
+  '/images/plants/balcony-stone-pot.jpg',
+  '/images/lifestyle/urban-rooftop-garden.png',
+]
+
+export const plantFaqs = [
+  {
+    q: 'What types of plants do you offer?',
+    a: 'Indoor plants, outdoor plants, flowering plants and fruit plants — plus matching premium pots for homes, offices and commercial spaces.',
+  },
+  {
+    q: 'Do you provide delivery and installation?',
+    a: 'Yes. We supply plants and pots and can install them on-site across Bangalore so your space is ready from day one.',
+  },
+  {
+    q: 'Are the pots suitable for indoor and outdoor use?',
+    a: 'Our premium range includes stylish, durable designs in multiple colours and sizes suitable for indoor corners and outdoor projects.',
+  },
+  {
+    q: 'Can you design landscaping for villas or offices?',
+    a: 'Yes. We plan plant mix, pots and placement for villas, farm houses, offices, schools, cafés and landscaping projects.',
+  },
+  {
+    q: 'How do I book a visit?',
+    a: `Call or WhatsApp ${company.contact.phoneDisplay}, or use Book Free Visit — we will inspect your space and recommend the right plants.`,
+  },
 ]
 
 export const indoorService = {
@@ -447,7 +563,7 @@ export const outdoorService = {
     {
       title: 'Fruit Plants',
       text: 'Potted fruit plants for terraces and villa gardens — fresh and organic.',
-      image: '/images/lifestyle/pot-tomatoes.png',
+      image: '/images/plants/fruit-orange-plant.jpg',
     },
     {
       title: 'Landscaping Projects',

@@ -46,6 +46,11 @@ import {
   Settings,
   Trees,
   Flower2,
+  Truck,
+  IndianRupee,
+  BookOpen,
+  Minus,
+  CircleHelp,
 } from 'lucide-react'
 
 const icons = {
@@ -97,6 +102,11 @@ const icons = {
   Settings,
   Trees,
   Flower2,
+  Truck,
+  IndianRupee,
+  BookOpen,
+  Minus,
+  CircleHelp,
 }
 
 export default function Icon({ name, className = 'w-5 h-5', ...props }) {
