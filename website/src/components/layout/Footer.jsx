@@ -80,12 +80,13 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2.5 text-sm">
               {[
-                ['Terrace Garden Setup', '/services'],
-                ['Land & Plot Gardens', '/services'],
+                ['Indoor & Outdoor', '/services/indoor-outdoor'],
+                ['Land & Plot Gardens', '/services/land-plot'],
+                ['Terrace Garden Setup', '/services/terrace'],
                 ['How It Works', '/how-it-works'],
                 ['Book Free Inspection', '/book-visit'],
               ].map(([label, path]) => (
-                <li key={path}>
+                <li key={label}>
                   <Link to={path} className="text-leaf-100/75 hover:text-white transition">
                     {label}
                   </Link>

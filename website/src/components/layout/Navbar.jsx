@@ -60,7 +60,7 @@ export default function Navbar() {
                       <div className="min-w-[200px] rounded-xl bg-white border border-forest-800/8 shadow-lg shadow-forest-900/8 p-2">
                         {link.children.map((child) => (
                           <NavLink
-                            key={child.path}
+                            key={child.label}
                             to={child.path}
                             className="block px-3 py-2 text-sm text-forest-700 rounded-lg hover:bg-leaf-50"
                           >
@@ -149,7 +149,7 @@ export default function Navbar() {
                         <div className="pl-4 pb-2 space-y-1">
                           {link.children.map((child) => (
                             <Link
-                              key={child.path}
+                              key={child.label}
                               to={child.path}
                               className="block px-3 py-2 text-sm text-forest-700 rounded-lg hover:bg-leaf-50"
                             >

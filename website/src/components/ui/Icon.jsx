@@ -43,6 +43,9 @@ import {
   HeartHandshake,
   Bot,
   Send,
+  Settings,
+  Trees,
+  Flower2,
 } from 'lucide-react'
 
 const icons = {
@@ -91,6 +94,9 @@ const icons = {
   HeartHandshake,
   Bot,
   Send,
+  Settings,
+  Trees,
+  Flower2,
 }
 
 export default function Icon({ name, className = 'w-5 h-5', ...props }) {

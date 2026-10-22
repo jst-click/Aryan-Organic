@@ -303,8 +303,8 @@ export const landGarden = {
   kannada: 'ಖಾಲಿ ಜಾಗದಲ್ಲಿ ನಾವೇ ಆರ್ಗ್ಯಾನಿಕ್ ಗಾರ್ಡನ್ ಮಾಡಿ ಕೊಡ್ತೀವಿ',
   cta: 'Book a Land Visit',
   ctaTo: '/book-visit',
-  secondaryCta: 'See Our Service',
-  secondaryCtaTo: '/services',
+  secondaryCta: 'See Land Gardens',
+  secondaryCtaTo: '/services/land-plot',
   image: '/images/land-site-garden.png',
   imageAlt:
     'Blank plot converted into an organic garden — raised planter beds, trellis crops, grow bags and drip irrigation at sunset',
@@ -335,9 +335,9 @@ export const navLinks = [
     label: 'Our Service',
     path: '/services',
     children: [
-      { label: 'Terrace Garden Setup', path: '/services' },
-      { label: 'Land & Plot Gardens', path: '/services' },
-      { label: 'How It Works', path: '/how-it-works' },
+      { label: 'Indoor & Outdoor', path: '/services/indoor-outdoor' },
+      { label: 'Land & Plot Gardens', path: '/services/land-plot' },
+      { label: 'Terrace Garden Setup', path: '/services/terrace' },
     ],
   },
   { label: 'How It Works', path: '/how-it-works' },
@@ -345,6 +345,126 @@ export const navLinks = [
   { label: 'Blog', path: '/blog' },
   { label: 'Contact Us', path: '/contact' },
 ]
+
+export const plantBenefits = [
+  { icon: 'Leaf', title: 'Improves Air Quality', text: 'Fresh greenery that purifies indoor and outdoor air naturally.' },
+  { icon: 'Heart', title: 'Beautifies Your Space', text: 'Stylish plants and pots that elevate homes, offices and gardens.' },
+  { icon: 'Sprout', title: 'Low Maintenance', text: 'Care-friendly varieties with guidance and optional support.' },
+  { icon: 'Recycle', title: 'Natural & Eco Friendly', text: 'Honest • Pure • Responsible — every drop is organic.' },
+]
+
+export const idealSpaceCards = [
+  { label: 'Homes & Apartments', image: '/images/plants/indoor-trio-white.jpg' },
+  { label: 'Villas & Farm Houses', image: '/images/plants/balcony-stone-pot.jpg' },
+  { label: 'Offices & Commercial Spaces', image: '/images/plants/office-planters.jpg' },
+  { label: 'Schools & Colleges', image: '/images/lifestyle/rooftop-growbags.png' },
+  { label: 'Restaurants & Cafés', image: '/images/plants/peace-lily-patio.jpg' },
+  { label: 'Landscaping Projects', image: '/images/plants/outdoor-faceted-pots.jpg' },
+]
+
+export const plantVarietyCards = [
+  { label: 'Indoor Plants', image: '/images/plants/snake-plant-mint.png' },
+  { label: 'Outdoor Plants', image: '/images/plants/outdoor-faceted-pots.jpg' },
+  { label: 'Flowering Plants', image: '/images/plants/peace-lily-ribbed.jpg' },
+  { label: 'Fruit Plants', image: '/images/lifestyle/pot-tomatoes.png' },
+]
+
+export const premiumPotGallery = [
+  '/images/plants/outdoor-faceted-pots.jpg',
+  '/images/plants/spider-rubber-pots.jpg',
+  '/images/plants/office-planters.jpg',
+  '/images/plants/peace-lily-ribbed.jpg',
+  '/images/plants/monstera-studio.jpg',
+]
+
+export const premiumPotFeatures = [
+  { icon: 'Star', label: 'Stylish Designs' },
+  { icon: 'Hourglass', label: 'Durable & Long Lasting' },
+  { icon: 'Leaf', label: 'Suitable for Indoor & Outdoor' },
+  { icon: 'Layers', label: 'Multiple Colors & Sizes' },
+]
+
+export const serviceOfferings = [
+  { label: 'Plant Supply', icon: 'Leaf' },
+  { label: 'Landscape Design', icon: 'Trees' },
+  { label: 'Pot Supply', icon: 'Flower2' },
+  { label: 'Installation', icon: 'Wrench' },
+  { label: 'Maintenance Support', icon: 'Settings' },
+]
+
+export const indoorService = {
+  headline: 'Bring nature closer to your indoor space',
+  subtitle:
+    'Stylish indoor plants and designer pots for homes, apartments and offices — air-purifying, low maintenance and beautiful.',
+  varieties: [
+    {
+      title: 'Indoor Plants',
+      text: 'Peace lily, snake plant, monstera, rubber plant, palms and more for living rooms and offices.',
+      image: '/images/plants/indoor-trio-table.jpg',
+    },
+    {
+      title: 'Statement Greens',
+      text: 'Tall Bird of Paradise, Ficus and sculptural foliage that make a premium interior statement.',
+      image: '/images/plants/indoor-trio-white.jpg',
+    },
+    {
+      title: 'Air-Purifying Picks',
+      text: 'Snake plants and peace lilies that thrive indoors and improve air quality.',
+      image: '/images/plants/snake-plant-mint.png',
+    },
+    {
+      title: 'Office & Lobby Sets',
+      text: 'Matched planter collections for offices, receptions and commercial interiors.',
+      image: '/images/plants/office-planters.jpg',
+    },
+  ],
+  pots: {
+    title: 'Premium Indoor Plant Pots',
+    points: [
+      'Stylish modern designs',
+      'Durable & long lasting',
+      'Suitable for indoor spaces',
+      'Multiple colours & sizes',
+    ],
+  },
+}
+
+export const outdoorService = {
+  headline: 'Greener balconies, terraces and gardens',
+  subtitle:
+    'Outdoor plants, flowering shrubs, fruit plants and landscaping pots for villas, farmhouses, cafés and terrace projects across Bangalore.',
+  varieties: [
+    {
+      title: 'Outdoor Plants',
+      text: 'Hardy shrubs, balcony greens and patio plants that love sunlight and open air.',
+      image: '/images/plants/balcony-stone-pot.jpg',
+    },
+    {
+      title: 'Flowering Plants',
+      text: 'Colourful blooms and decorative planters to brighten outdoor corners.',
+      image: '/images/plants/outdoor-faceted-pots.jpg',
+    },
+    {
+      title: 'Fruit Plants',
+      text: 'Potted fruit plants for terraces and villa gardens — fresh and organic.',
+      image: '/images/lifestyle/pot-tomatoes.png',
+    },
+    {
+      title: 'Landscaping Projects',
+      text: 'Complete outdoor greening for homes, cafés, schools and commercial campuses.',
+      image: '/images/plants/outdoor-faceted-pots.jpg',
+    },
+  ],
+  pots: {
+    title: 'Premium Outdoor Plant Pots',
+    points: [
+      'Weather-ready stylish designs',
+      'Durable & long lasting',
+      'Suitable for indoor & outdoor',
+      'Multiple colours & sizes',
+    ],
+  },
+}
 
 export const heroFeatures = [
   { icon: 'ShieldCheck', label: '100% Chemical-Free' },
