@@ -8,7 +8,7 @@ import ServiceOfferingsBar from '../components/ui/ServiceOfferingsBar'
 
 const serviceCards = [
   {
-    title: 'Indoor & Outdoor Plants',
+    title: 'Landscape Indoor & Outdoor',
     path: '/services/indoor-outdoor',
     image: '/images/plants/indoor-trio-table.jpg',
     text: 'Premium indoor & outdoor plants, designer pots and landscaping — all on one page.',

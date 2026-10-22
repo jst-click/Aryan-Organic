@@ -57,12 +57,12 @@ export default function Navbar() {
                       <Icon name="ChevronDown" className="w-3.5 h-3.5 opacity-60" />
                     </NavLink>
                     <div className="invisible opacity-0 group-hover:visible group-hover:opacity-100 transition absolute top-full left-0 pt-2">
-                      <div className="min-w-[200px] rounded-xl bg-white border border-forest-800/8 shadow-lg shadow-forest-900/8 p-2">
+                      <div className="min-w-[180px] max-w-[220px] rounded-xl bg-white border border-forest-800/8 shadow-lg shadow-forest-900/8 p-2">
                         {link.children.map((child) => (
                           <NavLink
                             key={child.label}
                             to={child.path}
-                            className="block px-3 py-2 text-sm text-forest-700 rounded-lg hover:bg-leaf-50"
+                            className="block px-3 py-2 text-sm text-forest-700 rounded-lg hover:bg-leaf-50 whitespace-normal leading-snug text-left"
                           >
                             {child.label}
                           </NavLink>
@@ -151,7 +151,7 @@ export default function Navbar() {
                             <Link
                               key={child.label}
                               to={child.path}
-                              className="block px-3 py-2 text-sm text-forest-700 rounded-lg hover:bg-leaf-50"
+                              className="block px-3 py-2 text-sm text-forest-700 rounded-lg hover:bg-leaf-50 whitespace-normal leading-snug"
                             >
                               {child.label}
                             </Link>

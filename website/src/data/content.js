@@ -335,7 +335,7 @@ export const navLinks = [
     label: 'Our Service',
     path: '/services',
     children: [
-      { label: 'Indoor & Outdoor', path: '/services/indoor-outdoor' },
+      { label: 'Landscape Indoor & Outdoor', path: '/services/indoor-outdoor' },
       { label: 'Land & Plot Gardens', path: '/services/land-plot' },
       { label: 'Terrace Garden Setup', path: '/services/terrace' },
     ],

@@ -80,7 +80,7 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2.5 text-sm">
               {[
-                ['Indoor & Outdoor', '/services/indoor-outdoor'],
+                ['Landscape Indoor & Outdoor', '/services/indoor-outdoor'],
                 ['Land & Plot Gardens', '/services/land-plot'],
                 ['Terrace Garden Setup', '/services/terrace'],
                 ['How It Works', '/how-it-works'],
