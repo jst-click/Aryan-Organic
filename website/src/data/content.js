@@ -357,7 +357,7 @@ export const idealSpaceCards = [
   { label: 'Homes & Apartments', image: '/images/plants/indoor-trio-white.jpg' },
   { label: 'Villas & Farm Houses', image: '/images/plants/balcony-stone-pot.jpg' },
   { label: 'Offices & Commercial Spaces', image: '/images/plants/office-planters.jpg' },
-  { label: 'Schools & Colleges', image: '/images/lifestyle/rooftop-growbags.png' },
+  { label: 'Schools & Colleges', image: '/images/plants/space-schools-colleges.jpg' },
   { label: 'Restaurants & Cafés', image: '/images/plants/peace-lily-patio.jpg' },
   { label: 'Landscaping Projects', image: '/images/plants/outdoor-faceted-pots.jpg' },
 ]
