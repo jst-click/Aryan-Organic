@@ -397,31 +397,31 @@ export const plantServiceCards = [
     title: 'Plant Supply',
     icon: 'Leaf',
     text: 'Wide range of healthy plants for all spaces.',
-    image: '/images/plants/indoor-trio-table.jpg',
+    image: '/images/plants/service-plant-supply.jpg',
   },
   {
     title: 'Landscape Design',
     icon: 'Trees',
     text: 'Beautiful outdoor spaces crafted for you.',
-    image: '/images/plants/balcony-stone-pot.jpg',
+    image: '/images/plants/service-landscape-design.jpg',
   },
   {
     title: 'Pot Supply',
     icon: 'Flower2',
     text: 'Stylish premium pots for every plant.',
-    image: '/images/plants/peace-lily-ribbed.jpg',
+    image: '/images/plants/service-pot-supply.jpg',
   },
   {
     title: 'Installation',
     icon: 'Wrench',
     text: 'Professional setup and arrangement.',
-    image: '/images/lifestyle/balcony-lifestyle.png',
+    image: '/images/plants/service-installation.jpg',
   },
   {
     title: 'Maintenance Support',
     icon: 'Settings',
     text: 'Ongoing care and support for your plants.',
-    image: '/images/nursery-shade-net.jpg',
+    image: '/images/plants/service-maintenance.jpg',
   },
 ]
 
